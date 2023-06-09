@@ -1,0 +1,52 @@
+.sendfile_container{
+    height: 80% !important;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-inline:30px ;
+    padding-inline: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+}
+.img_container{
+    height: 80%;
+    width: 70%;
+    border: solid gray 1px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+.add_btn{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    z-index: 10;
+    font-size: 30px;
+    background-color: rgb(87, 192, 46);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.add_btn:hover{
+    transition: .5s;
+      background-color: rgb(87, 192, 46);
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sendfile_input{
+    display: none;
+}
+.generate_code_container{
+    width: 100%;
+}

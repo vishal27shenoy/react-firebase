@@ -1,0 +1,82 @@
+.dettext_conatiner{
+    height: 70vh;
+    width: 100%;
+    padding-inline: 30px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input_and_btn_container{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    gap: 20px;
+}
+.gettext_input{
+    text-indent: 20px;
+    flex: 1;
+    border: solid gray 1px;
+    border-radius: 8px;
+}
+.gettext_input:focus{
+    outline: none;
+}
+.submit_btn{
+    width: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(37, 122, 241);
+    border-radius: 8px;
+    border: none;
+}
+.submit_btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.output_text_container{
+    height: 100%;
+    width: 100%;
+    border: solid gray 1px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.getfile_container{
+    padding-inline: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   height: 70vh;
+}
+.output_file_container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
+.output_img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.output_img_download{
+    width: 120px;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(62, 238, 74);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.output_img_download:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.gettext_input,.submit_btn{
+    height: 40px;
+    
+}
